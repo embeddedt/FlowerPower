@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Flower Power</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="jquery.ui.touch-punch.min.js"></script>
+        <script src="jquery.alterclass.js"></script>
+        <script src="dragscrollable.min.js"></script>
+        <link rel="stylesheet" href="progress-polyfill.css">
+        <link rel="stylesheet" href="flower.css">
+        <script src="flower.js"></script>
+    </head>
+    <body>
+        <div class="whole-container">
+            
+            <div class="house-window">
+                <div id="night-filter"></div>
+                <img src="window_background.svg" style="display:none;" alt="" />
+                <img src="window_background_dark.svg" style="display:none;" alt="" />
+                <div id="watering-can-div">
+                    <img id="watering-can-img" src="watering_can.svg" alt="watering can"/>
+                    <canvas id="watering-can-canvas"></canvas>
+                </div>
+                <div class="pot">
+                    <div class="pot-container">
+                        <div id="pot-flower-container">
+                            <div id="flower-container">
+                                
+                                <img id="flower-stem" class="flower-img flower-stem live-flower" src="flower_stem.svg" alt="Flower"/>
+                                <img id="flower-stem-wilted" class="flower-img flower-stem  dead-flower" src="flower_stem.svg" alt="Flower"/>
+                                <img id="flower-head" class="flower-img flower-head live-flower" src="flower_head.svg" alt="Flower"/>
+                                <img id="flower-head-wilted" class="flower-img flower-head dead-flower" src="flower_head_wilted.svg" alt="Flower"/>
+                                <img id="flower-left-leaf" class="flower-img flower-leaf flower-left-leaf live-flower" src="flower_left_leaf.svg" alt="Flower"/>
+                                <img id="flower-right-leaf" class="flower-img flower-leaf flower-right-leaf live-flower" src="flower_right_leaf.svg" alt="Flower"/>
+                                <img id="flower-left-leaf-wilted" class="flower-img flower-leaf flower-left-leaf dead-flower" src="flower_left_leaf.svg" alt="Flower"/>
+                                <img id="flower-right-leaf-wilted" class="flower-img flower-leaf flower-right-leaf dead-flower" src="flower_right_leaf.svg" alt="Flower"/>
+                            </div>
+                        </div>
+                        <img class="pot-img" alt="pot" src="pot.svg"/>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+            <div id='instructions-dialog' title='How to play' style='display: none;'>
+                <div style='text-align: left; display: inline-block;'>
+                    Welcome to Flower Power.
+                    <p>
+                    In this game you'll learn about what plants need to grow. You'll be
+                    responsible for growing this special flower we have.
+                    <p>
+                    Make sure to give it enough water. You can see how much water it has
+                    on the right side of your screen - don't let it run out!
+                    <p>
+                    Make sure the plant has enough light as well.
+                    <p>
+                    Can you get it to reach its full height?
+                    <p>
+                    To start, click the "Start" button, set the lighting conditions,
+                    then click the "Grow!" button to make the plant start growing!
+                </div>
+                <button id='start-button' tabindex="-1" onclick='$("#instructions-dialog").dialog("close");'>Start</button>
+            </div>
+            <div id="no-water-dialog" title="Oh no!" style="display: none;">
+                Uh-oh! The flower has died because it ran out of water.
+                <p>
+                Make sure you keep an eye on the water meter and water the plant
+                before it gets too dry.
+                <p>
+                <center><a href="#" onclick="window.location.reload(true);">Try again?</a></center>
+            </div>
+            <div id="no-light-dialog" title="Oh no!" style="display: none;">
+                Uh-oh! The flower has died because there wasn't enough light.
+                <p>
+                Remember that plants need lots of light to grow.
+                <p>
+                <center><a href="#" onclick="window.location.reload(true);">Try again?</a></center>
+            </div>
+            <div id="grew-dialog" title="Congratulations!" style="display: none;">
+                Great job! You succesfully watered the flower and gave it lots of light!
+                <p>
+                If you want, you can try:
+                <ol>
+                    <li>Watering the plant but growing it in darkness</li>
+                    <li>Giving the plant no water</li>
+                </ol>
+                <p>
+                <center><a href="#" onclick="window.location.reload(true);">Play again?</a></center>
+            </div>
+            
+            <div id="water-controls">
+                <div style="display: inline-block; vertical-align: middle; position: absolute; left: 0;">
+                    <button id="water-button" class="water-control">Water the plant!</button>
+                    <br>
+                    <label class="switch water-control">
+                        <input id="light-checkbox" type="checkbox">
+                        <span id="light-slider-switch" class="slider round"><span id="light-text">Light</span></span>
+                    </label>
+                    <br>
+                    <button id="growButton">Grow!</button>
+                </div>
+                
+                <div style="display: inline-block; text-align: center; vertical-align: middle; position: absolute; right: 0;">
+                    <span id="water-bar-text">Water<br>level</span>
+                    <br>
+                    <div class="water-bar">
+                        <div class="water-bar-contents"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="growth-bar">
+                <div id="growth-bar-fields">
+                    <div>1<br>WK</div>
+                    <div>2<br>WKS</div>
+                    <div>3<br>WKS</div>
+                    <div>4<br>WKS</div>
+                </div>
+                <div id="growth-bar-content">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

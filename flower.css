@@ -1,0 +1,477 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Apr-2019, 10:06:14 AM
+    Author     : tt
+*/
+
+html, body, .whole-container {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.whole-container {
+    box-sizing: border-box;
+    padding: 0 2vmin;
+    text-align: center;
+    display: inline-block;
+}
+#pot-flower-container {
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    transform: translateY(-86%);
+    top: 30%;
+    left: 8%;
+    z-index: 2;
+}
+#flower-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    z-index: 2;
+}
+
+.water-bar {
+    border: 4px rgb(128, 128, 255) solid;
+    width: 25px;
+    height: 100px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+}
+
+.water-bar-contents {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+}
+
+@media screen and (max-height: 64vw) {
+    .water-bar {
+        height: 25px;
+        width: 100px;
+    }
+    .water-bar-contents {
+        width: 90%;
+        height: 100%;
+    }
+}
+
+
+
+.flower-img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.flower-head {
+    top: -3.3%;
+    left: -1%;
+    transform-origin: center center;
+    transform: scale(1);
+}
+
+.flower-leaf {
+    width: 50%;
+}
+
+.flower-left-leaf {
+    transform-origin: left center;
+    top: 60%;
+}
+
+.flower-right-leaf {
+    transform-origin: right center;
+    top: 44%;
+    right: 0;
+}
+
+
+
+.ui-dialog-title {
+    width: 100% !important;
+}
+
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+    pointer-events: none;
+    display: none;
+}
+
+.flower-head.dead-flower {
+    filter:              brightness(0.2) saturate(100%) invert(26%) sepia(67%) saturate(1043%) hue-rotate(6deg) brightness(92%) contrast(101%); 
+    -webkit-filter:      brightness(0.2) saturate(100%) invert(26%) sepia(67%) saturate(1043%) hue-rotate(6deg) brightness(92%) contrast(101%);
+}
+.dead-flower {
+    filter:              brightness(0.4) saturate(100%) invert(26%) sepia(67%) saturate(1043%) hue-rotate(6deg) brightness(92%) contrast(101%); 
+    -webkit-filter:      brightness(0.4) saturate(100%) invert(26%) sepia(67%) saturate(1043%) hue-rotate(6deg) brightness(92%) contrast(101%);
+    z-index: 3 !important;
+}
+.house-window {
+    width: 100%;
+    height: 82%;
+    /* To prevent overflow width must not be greater than 121 vh */
+    max-width: 80vh;
+    background: url('window_background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+}
+
+@media screen and (max-height: 400px) {
+    .house-window {
+        max-width: 50vh;
+    }
+}
+
+@media screen and (max-height: 215px) {
+    .house-window {
+        max-width: 40vh;
+    }
+}
+
+.pot {
+    width: 13%;
+    height: 15%;
+    position: absolute;
+    bottom: 8.5%;
+    left: 35%;
+    z-index: 1;
+}
+
+.pot-container {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.pot-img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.controls {
+    width: 17%;
+    text-align: center;
+    z-index: 20;
+    display: inline-block;
+}
+/*
+.controls {
+    width: 17%;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    text-align: center;
+}
+
+#left-controls {
+    left: 0px;
+}
+
+#right-controls {
+    right: 0;
+} */
+
+
+.water-control {
+    margin: 4px 0;
+}
+.controls button {
+    max-width: calc(100% - 4px);
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#water-button {
+    height: 34px;
+    vertical-align: middle;
+}
+
+#water-button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+	background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	background-color:#79bbff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#water-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+	background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+	background-color:#378de5;
+}
+#water-button:active {
+	position:relative;
+	top:1px;
+}
+
+#growButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+	background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809',GradientType=0);
+	background-color:#89c403;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+#growButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+	background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
+	background-color:#77a809;
+}
+#growButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 42px;
+  vertical-align: middle;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 32.5px;
+  width: 32.5px;
+  bottom: 5px;
+  background-color: white;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:not(:checked) + .slider:before {
+  left: 5px;
+}
+input:checked + .slider:before {
+  right: 5px;
+}
+
+#light-text {
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#light-text, .noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
+
+#watering-can-div {
+    position: absolute;
+    width: 15%;
+    height: 12%;
+    max-width: 312px;
+    max-height: 312px;
+    display: block;
+    bottom: 28%;
+    left: 20%;
+    transform: rotateZ(45deg);
+    z-index: 3;
+}
+
+#watering-can-canvas {
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 17%;
+    right: -5%;
+    transform-origin: center top;
+    transform: rotateZ(-90deg);
+    z-index: 0;
+}
+
+#watering-can-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+
+#night-filter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+#growth-progress {
+    width: 100%;
+    height: 50px;
+}
+
+#growth-bar {
+    width: 100%;
+    max-width: 700px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 4px green solid;
+    position: relative;
+    display: inline-block;
+}
+
+#growth-bar-fields {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ui-dialog {
+    max-width: 90vw;
+}
+
+.ui-dialog-content {
+    max-height: 60vh !important;
+}
+
+#growth-bar-fields div {
+    color: gray;
+    z-index: 2;
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 25%;
+    font-size: 16px;
+    border: 1px gray solid;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+#growth-bar-content {
+    width: 0%;
+    height: 100%;
+    background-color: #89c403;
+    z-index: 0;
+    position: relative;
+}
+
+#water-controls {
+    height: 150px;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: inline-block;
+}

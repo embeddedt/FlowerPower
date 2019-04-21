@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="406.68802"
+   height="330.59375"
+   id="svg6656"
+   version="1.1"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="window_background.svg">
+  <title
+     id="title6861">Truly transparent window</title>
+  <defs
+     id="defs6658">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#SVGID_65_"
+       id="linearGradient5728"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-376.37986,6.6595583)"
+       x1="319.2373"
+       y1="430.93951"
+       x2="319.2373"
+       y2="439.93951" />
+    <linearGradient
+       id="SVGID_65_"
+       gradientUnits="userSpaceOnUse"
+       x1="319.2373"
+       y1="430.93951"
+       x2="319.2373"
+       y2="439.93951">
+      <stop
+         offset="0"
+         style="stop-color: rgb(255, 255, 255);"
+         id="stop28594" />
+      <stop
+         offset="0.1091"
+         style="stop-color: rgb(250, 250, 250);"
+         id="stop28596" />
+      <stop
+         offset="0.2329"
+         style="stop-color: rgb(237, 237, 237);"
+         id="stop28598" />
+      <stop
+         offset="0.364"
+         style="stop-color: rgb(214, 214, 214);"
+         id="stop28600" />
+      <stop
+         offset="0.5001"
+         style="stop-color: rgb(182, 182, 182);"
+         id="stop28602" />
+      <stop
+         offset="0.6403"
+         style="stop-color: rgb(141, 141, 141);"
+         id="stop28604" />
+      <stop
+         offset="0.7837"
+         style="stop-color: rgb(91, 91, 91);"
+         id="stop28606" />
+      <stop
+         offset="0.9271"
+         style="stop-color: rgb(33, 33, 33);"
+         id="stop28608" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(0, 0, 0);"
+         id="stop28610" />
+    </linearGradient>
+    <linearGradient
+       id="SVGID_67_"
+       gradientUnits="userSpaceOnUse"
+       x1="270.10989"
+       y1="281.40671"
+       x2="270.10989"
+       y2="287.23141"
+       gradientTransform="matrix(-1,0,0,1,604.258,0)">
+      <stop
+         offset="0"
+         style="stop-color: rgb(255, 255, 255);"
+         id="stop28638" />
+      <stop
+         offset="0.1435"
+         style="stop-color: rgb(250, 248, 245);"
+         id="stop28640" />
+      <stop
+         offset="0.284"
+         style="stop-color: rgb(239, 233, 227);"
+         id="stop28642" />
+      <stop
+         offset="0.4233"
+         style="stop-color: rgb(225, 213, 203);"
+         id="stop28644" />
+      <stop
+         offset="0.562"
+         style="stop-color: rgb(209, 189, 173);"
+         id="stop28646" />
+      <stop
+         offset="0.7002"
+         style="stop-color: rgb(189, 161, 138);"
+         id="stop28648" />
+      <stop
+         offset="0.8381"
+         style="stop-color: rgb(167, 130, 102);"
+         id="stop28650" />
+      <stop
+         offset="0.9734"
+         style="stop-color: rgb(143, 99, 67);"
+         id="stop28652" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(139, 94, 60);"
+         id="stop28654" />
+    </linearGradient>
+    <linearGradient
+       id="SVGID_66_"
+       gradientUnits="userSpaceOnUse"
+       x1="298.26321"
+       y1="281.53961"
+       x2="298.26321"
+       y2="287.36429">
+      <stop
+         offset="0"
+         style="stop-color: rgb(255, 255, 255);"
+         id="stop28617" />
+      <stop
+         offset="0.1435"
+         style="stop-color: rgb(250, 248, 245);"
+         id="stop28619" />
+      <stop
+         offset="0.284"
+         style="stop-color: rgb(239, 233, 227);"
+         id="stop28621" />
+      <stop
+         offset="0.4233"
+         style="stop-color: rgb(225, 213, 203);"
+         id="stop28623" />
+      <stop
+         offset="0.562"
+         style="stop-color: rgb(209, 189, 173);"
+         id="stop28625" />
+      <stop
+         offset="0.7002"
+         style="stop-color: rgb(189, 161, 138);"
+         id="stop28627" />
+      <stop
+         offset="0.8381"
+         style="stop-color: rgb(167, 130, 102);"
+         id="stop28629" />
+      <stop
+         offset="0.9734"
+         style="stop-color: rgb(143, 99, 67);"
+         id="stop28631" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(139, 94, 60);"
+         id="stop28633" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="21.589654"
+     inkscape:cx="166.17013"
+     inkscape:cy="164.53793"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6661">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Truly transparent window</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Luis Alejandro Bernal Romero (Aztlek)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Public domain</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>home</rdf:li>
+            <rdf:li>house</rdf:li>
+            <rdf:li>inside</rdf:li>
+            <rdf:li>look</rdf:li>
+            <rdf:li>outside</rdf:li>
+            <rdf:li>trees</rdf:li>
+            <rdf:li>window</rdf:li>
+            <rdf:li>window sill</rdf:li>
+            <rdf:li>hill</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Truly transparent window</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Landscape"
+     transform="translate(61.656513,15.90625)">
+    <rect
+       y="-15.62875"
+       x="-61.379013"
+       height="278.54062"
+       width="406.13303"
+       id="rect38296"
+       style="display:inline;fill:#5fbcd3;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.55500001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="212.97452"
+       x="-61.378998"
+       height="101.4355"
+       width="406.133"
+       id="rect17567"
+       style="display:inline;fill:#6ab000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.55500001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="window"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(260.59437,-133.35313)"
+     style="display:inline">
+    <path
+       style="fill:#e3dbdb;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M -261.1897,133.94313 V 464.53688 H 145.4978 V 133.94313 Z m 70.375,15.90625 H 75.341543 V 438.63063 H -190.8147 Z"
+       id="rect6828"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.17999995"
+       clip-path="none"
+       d="M -189.62726,149.84938 V 437.44313 H 75.341543 V 149.84938 Z m 9.75,11.4375 h 118.031203 v 262.0625 H -179.87726 Z m 127.437503,0 h 118.0313 v 262.0625 h -118.0313 z"
+       id="path6589"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path6583"
+       d="M -179.79289,161.28953 V 423.35198 H -61.730387 V 161.28953 Z m 5.53125,4.96875 h 51.4375 v 120.9375 h -51.4375 z m 56.09375,0 h 51.437503 v 120.9375 h -51.437503 z m -56.09375,124.9687 h 51.4375 v 120.9375 h -51.4375 z m 56.09375,0 h 51.437503 v 120.9375 h -51.437503 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.88499999"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.88499999"
+       d="m -52.362877,161.28949 v 262.06254 h 118.0625 V 161.28949 Z m 5.53125,4.9688 H 4.6058729 v 120.9375 H -46.831627 Z m 56.0937499,0 H 60.699623 v 120.9375 H 9.2621229 Z M -46.831627,291.22699 H 4.6058729 V 412.16453 H -46.831627 Z m 56.0937499,0 H 60.699623 V 412.16453 H 9.2621229 Z"
+       id="path6539"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none"
+       id="rect6523"
+       width="51.447227"
+       height="120.93878"
+       x="-47.440346"
+       y="166.23688" />
+    <path
+       inkscape:connector-curvature="0"
+       id="rect28612"
+       d="M -198.64286,437.59856 H 84.357143 v 9 H -198.64286 Z"
+       clip-path="none"
+       style="display:inline;fill:url(#linearGradient5728);stroke:#000000;stroke-width:0.58999997" />
+    <rect
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none"
+       id="rect5751"
+       width="51.447227"
+       height="120.93878"
+       x="-173.98721"
+       y="166.23688" />
+    <rect
+       y="166.23688"
+       x="-117.87785"
+       height="120.93878"
+       width="51.447227"
+       id="rect6521"
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none" />
+    <rect
+       y="166.23688"
+       x="8.6690311"
+       height="120.93878"
+       width="51.447227"
+       id="rect6525"
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none"
+       id="rect6527"
+       width="51.447227"
+       height="120.93878"
+       x="-117.87785"
+       y="291.22787" />
+    <rect
+       y="291.22787"
+       x="-47.440346"
+       height="120.93878"
+       width="51.447227"
+       id="rect6529"
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none" />
+    <rect
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none"
+       id="rect6531"
+       width="51.447227"
+       height="120.93878"
+       x="8.6690311"
+       y="291.22787" />
+    <rect
+       y="291.22787"
+       x="-173.98721"
+       height="120.93878"
+       width="51.447227"
+       id="rect6533"
+       style="fill:#000000;fill-opacity:0.09004738;fill-rule:nonzero;stroke:none" />
+  </g>
+</svg>

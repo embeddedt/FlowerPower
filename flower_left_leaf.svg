@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="170.67361"
+   height="225.76834"
+   viewBox="0 0 1.8963735 2.5085371"
+   id="svg4152"
+   version="1.1"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="flower_left_leaf.svg">
+  <defs
+     id="defs4154">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11572"
+       is_visible="true" />
+    <linearGradient
+       id="linearGradient6546">
+      <stop
+         style="stop-color:#74ff78;stop-opacity:1"
+         offset="0"
+         id="stop11541" />
+      <stop
+         style="stop-color:#409e00;stop-opacity:1"
+         offset="1"
+         id="stop11543" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect11512"
+       is_visible="true" />
+    <linearGradient
+       id="linearGradient8243">
+      <stop
+         style="stop-color:#fff309;stop-opacity:1"
+         offset="0"
+         id="stop8245" />
+      <stop
+         style="stop-color:#5fd500;stop-opacity:1"
+         offset="1"
+         id="stop8247" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6669">
+      <stop
+         style="stop-color:#fffd14;stop-opacity:1"
+         offset="0"
+         id="stop6671" />
+      <stop
+         style="stop-color:#ffc62a;stop-opacity:1"
+         offset="1"
+         id="stop6673" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6650"
+       is_visible="true" />
+    <linearGradient
+       id="linearGradient11545">
+      <stop
+         id="stop6558"
+         offset="0"
+         style="stop-color:#53ff58;stop-opacity:1" />
+      <stop
+         id="stop6560"
+         offset="1"
+         style="stop-color:#198800;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6562">
+      <stop
+         style="stop-color:#a700e0;stop-opacity:1"
+         offset="0"
+         id="stop6548" />
+      <stop
+         id="stop11347"
+         offset="0.51764709"
+         style="stop-color:#ff062c;stop-opacity:1" />
+      <stop
+         style="stop-color:#ffdf14;stop-opacity:1"
+         offset="1"
+         id="stop6550" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6543"
+       is_visible="true" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11545"
+       id="radialGradient11593"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.8915672,1.666561,0.38771375,0.20698778,1.1462834,4.440437)"
+       cx="1.6189717"
+       cy="8.3893871"
+       fx="1.6189717"
+       fy="8.3893871"
+       r="1.4520171" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4142"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4135"
+       effect="spiro" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11545"
+       id="radialGradient4531"
+       cx="3.3398769"
+       cy="9.342844"
+       fx="3.3398769"
+       fy="9.342844"
+       r="0.83707559"
+       gradientTransform="matrix(1,0,0,1.3656562,0,-3.4162686)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="px"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.67521728"
+     inkscape:cx="-701.03872"
+     inkscape:cy="206.25791"
+     inkscape:current-layer="layer1"
+     id="namedview4156"
+     showgrid="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     units="px"
+     borderlayer="true"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <metadata
+     id="metadata4158">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Sonshine Design</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sonshine Penguin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.3916902,-8.0885756)">
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="flower_leaf"
+       d="M 3.8352419,8.2053631 C 5.0173533,8.4040114 2.7127353,9.6095814 2.59082,10.464542 2.3387271,9.8303341 2.6408694,8.518651 3.8352419,8.2053631 Z"
+       style="fill:url(#radialGradient11593);fill-rule:evenodd;stroke:url(#radialGradient4531);stroke-width:0.01111111px" />
+  </g>
+</svg>

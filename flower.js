@@ -115,7 +115,7 @@ function setDaytime(night) {
     } else
         $("#night-filter").hide();
 
-    $("#light-text").text(night ? "Night" : "Day");
+    $("#light-text").text(night ? "Dark" : "Light");
     isNight = night;
 }
 

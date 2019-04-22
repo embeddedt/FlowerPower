@@ -38,6 +38,12 @@ function wilt(shouldWilt, time, callback) {
     }
     setTimeout(callback, time + 2000);
 }
+
+function sayIssue(text) {
+    $("#plant-issue").text(text);
+    $("#plant-issue").finish().fadeIn(1000).delay(2500).fadeOut(1000);
+}
+
 function grow() {
 
     /* Now check what should be enabled */
@@ -79,7 +85,7 @@ function grow() {
         if (isNight)
             loopsWithNoLight++;
 
-        if (loopsWithNoLight === 10) {
+        if (loopsWithNoLight === 25) {
             shouldGrow = false;
             shouldWilt = true;
             cause = 1;
@@ -118,6 +124,11 @@ function sleep(ms) {
 }
 
 function doWater() {
+    
+    if(waterLevel === 100) {
+        sayIssue("Water level is full!");
+        return;
+    }
     $("#watering-can-div").show();
     $("#water-button").attr("disabled", true);
     $({waterLevel: waterLevel}).animate({waterLevel: 100}, {
@@ -161,11 +172,18 @@ $(window).resize(function () {
 });
 $(window).load(function () {
     $(".flower-img").hide();
+    $("#plant-issue").hide();
     $("#watering-can-div").hide();
     $("#instructions-dialog").dialog({modal: true});
     $("#water-button").click(doWater);
     $("#growButton").click(function () {
-        shouldGrow = true;
+        if(shouldWilt) {
+            sayIssue("It's dead.");
+        } else
+        if(shouldGrow) {
+            sayIssue("It's growing!");
+        } else
+            shouldGrow = true;
     });
     $("#light-checkbox").attr("checked", "true");
     $("#light-slider-switch").click(function () {

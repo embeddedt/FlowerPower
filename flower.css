@@ -173,13 +173,16 @@ body {
     width: 100%;
     text-align: center;
     left: 0;
-    margin: auto 0;
     top: 0;
-    bottom: 0;
     height: 1em;
-    line-height: 1em;
-    font-size: 74px;
+    font-size: 8vw;
     color: tomato;
+}
+
+@media screen and (min-width: 700px) {
+    #plant-issue {
+        font-size: 64px;
+    }
 }
 
 .pot {
